@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(60, 60, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    color: white;
+}
+.digit{
+    font-size: 100px;
+}
+.buttons{
+    text-align: center;
+    padding: 0px 33px;
+    margin-top: 30px;
+}
+.btn{
+
+    font-size: 30px;
+    border-radius: 4px;
+    background-color: rgb(88, 147, 147);
+    width: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#start{
+    background-color: rgb(100, 206, 100);
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: yellow;
+}
+#start:hover{
+    background-color: greenyellow;
+}
+#stop:hover{
+    background-color: rgb(31, 230, 230);
+}
+#reset:hover{
+    background-color: rgb(58, 85, 237);
+}
